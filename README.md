@@ -1,13 +1,13 @@
-# My Plugin
+# `hide` and `unhide` Aliases for macOS
 
-Simple description of your plugin.
+Use `hide <file>` to hide a file or folder, and `unhide <file>` to unhide it from Finder.
 
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle github-username/my-plugin@1.0.0
+antigen bundle aubreypwd/zsh-plugin-hide@1.0.0
 ```
 
 ## Development
@@ -15,10 +15,10 @@ antigen bundle github-username/my-plugin@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle github-username/my-plugin
+antigen bundle aubreypwd/zsh-plugin-hide
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/github-username/plugin-slug`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-hide`.
 
 ---
 
@@ -27,12 +27,3 @@ antigen bundle github-username/my-plugin
 ### 1.0.0
 
 - First version
-
----
-
-## Delete Me
-
-# - [ ] Rename `plugin-slug.plugin.zsh` to match your repo, e.g. `aubreypwd/my-plugin` becomes `my-plugin.plugin.zsh`
-# - [ ] Re-write `README.md` and replace `plugin-slug` with your repo name and `github-username` with your Github username
-
-That's it!
