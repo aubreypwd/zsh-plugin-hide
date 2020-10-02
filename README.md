@@ -15,7 +15,7 @@ antigen bundle aubreypwd/zsh-plugin-hide@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-hide
+antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-hide
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-hide`.
